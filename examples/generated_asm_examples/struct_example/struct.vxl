@@ -1,0 +1,22 @@
+function main -> int
+    $b <- |BankAccount 1234 5678 91011|
+
+    return 0
+end(main)
+
+
+struct BankAccount
+    balance(int) <- 0
+    id(int) <- 0
+    overdue(int) <- 0
+end(struct)
+
+constructor BankAccount(int balance, int id, int overdue)
+    $b <- |BankAccount|
+
+    $b.balance <- $balance
+    $b.id <- $id
+    $b.overdue <- $overdue
+
+    return $b
+end(constructor)

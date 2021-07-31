@@ -1,0 +1,8 @@
+func main -> int
+    $b <- @add_two_numbers(12, 13)
+    return $b
+end(main)
+
+func add_two_numbers(int a, int b) -> int
+    return $a + $b
+end(add_two_numbers)

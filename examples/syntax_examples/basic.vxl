@@ -1,0 +1,27 @@
+%import to_string from int
+
+func main (args([int])) -> int
+	$variable_name <- 4
+
+	if $variable_name = 3
+		@print(@to_string<int>($variable_name))
+	else
+		@print("Fail")
+	end(if)
+
+	for x : [2 ; 6; 1] // creates a variable x and increments by 1 from 2 -> 6 (exclusive)
+	end(for)
+	
+	return $variable_name
+end(func)
+
+func typed_ref(int arg)
+end(func)
+
+
+struct StructName
+	// Comment.
+	//field (type)
+
+	field_name (int)
+end(struct)

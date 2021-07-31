@@ -1,0 +1,11 @@
+function main -> int
+    $b: int <- 22
+
+    if $b = 22
+        $b <- $b + 22
+    else
+        $b <- $b - 22
+    end(if)
+
+    return $b
+end(main)

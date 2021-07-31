@@ -1,0 +1,12 @@
+[submodule "vxl-backend"]
+	path = vxl-backend
+	url = git@github.com:Voxeon/vxl-backend.git
+[submodule "vxlasm"]
+	path = vxlasm
+	url = git@github.com:Voxeon/vxlasm.git
+[submodule "vxl-iset"]
+	path = vxl-iset
+	url = git@github.com:Voxeon/vxl-iset.git
+[submodule "vxlvm"]
+	path = vxlvm
+	url = git@github.com:Voxeon/vxlvm.git
