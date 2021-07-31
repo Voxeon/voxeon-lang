@@ -1,0 +1,2 @@
+[workspace]
+members = ["vxlvm", "vxl-iset", "vxlasm", "vxl-backend"]
