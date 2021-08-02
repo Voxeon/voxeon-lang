@@ -1,4 +1,4 @@
-function main -> int
+func main -> int
     $b: int <- 22
 
     if $b = 22

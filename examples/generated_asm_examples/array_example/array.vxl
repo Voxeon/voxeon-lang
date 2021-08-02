@@ -1,4 +1,4 @@
-function main -> int
+func main -> int
     $array <- [int 10]
 
     $array:0 <- 3
