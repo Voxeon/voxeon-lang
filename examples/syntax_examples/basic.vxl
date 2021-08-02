@@ -18,7 +18,6 @@ end(func)
 func typed_ref(int arg)
 end(func)
 
-
 struct StructName
 	// Comment.
 	//field (type)
